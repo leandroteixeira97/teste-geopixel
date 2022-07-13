@@ -2,7 +2,8 @@
   width: 100%;
   height: 100%;
   grid-area: 1 / 2 / 3 / 3;
-  border: 1px solid black;
+  background: rgb(97,206,112);
+background: linear-gradient(180deg, rgba(97,206,112,1) 0%, rgba(151,235,163,1) 25%, rgba(176,240,185,1) 50%, rgba(151,235,163,1) 75%, rgba(97,206,112,1) 100%);
 }
 
 .ball {

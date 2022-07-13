@@ -3,5 +3,17 @@
   justify-content: center;
   align-items: center;
   grid-area: 1 / 1 / 2 / 2;
-  border: 1px solid black;
+  /* background-image: url('https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80'); */
+  /* background-size: cover; */
+  background-color: #0096d2;
+}
+
+.clock h2 {
+  padding: 20px;
+  background-color: #1f1f1f30;
+  backdrop-filter: blur(1.5px);
+  box-shadow: #1f1f1f 1px 1px 30px 10px;
+  color: white;
+  text-shadow: #1f1f1f5c 1px 1px;
+  border-radius: 5px;
 }
