@@ -1,5 +1,3 @@
-// React
-
 // Components
 import Clock from './components/Clock';
 import ItemsSelector from './components/ItemsSelector';

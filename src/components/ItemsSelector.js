@@ -6,14 +6,17 @@ import styles from "./ItemsSelector.module.css";
 
 const ItemsSelector = () => {
 
+  // Definição dos states inicias que utilizarei na aplicação, conforme orientações do teste
   const [options, setOptions] = useState(["Geopixel"]);
   const [option, setOption] = useState("");
   const [selectedWord, setSelectedWord] = useState("Selecione uma opção");
   const [error, setError] = useState("");
   const [success, setSucess] = useState("");
 
+  // Função para adicionar os itens à lista
   const addOption = () => {
 
+    // Validação inicial ao adicionar um item à lista, conforme regras estabelecidas no teste
     if (options.includes(option)) {
       setSucess("");
       setError("Não foi possível adicionar pois o item já consta na lista!");
@@ -26,12 +29,15 @@ const ItemsSelector = () => {
       setSucess("O item foi adicionado com sucesso!");
     }
 
+    // Limpeza do valor do input
     setOption("");
 
   };
 
+  // Função para remover itens da lista
   const removeOption = () => {
 
+    // Validações para que o input não esteja vazio ao remover e tamvém para verificar se o item consta na lista
     if (option === "") {
 
       setSucess("");
@@ -44,6 +50,7 @@ const ItemsSelector = () => {
 
     } else {
 
+      // Validação para evitar que a pessoa tente remover o único item remanescente da lista
       if (options.length === 1 && options.includes(option)) {
 
         setOption("");
@@ -68,6 +75,7 @@ const ItemsSelector = () => {
 
   };
 
+  // Função de limpeza do input através do botão
   const clearInput = () => {
 
     if (option === "") {
@@ -81,10 +89,12 @@ const ItemsSelector = () => {
 
   };
 
+  // Hook que verifica se houveram alterações na lista e renderiza o item que está selecionado no select
   useEffect(() => {
     handleSelectedWord();
   }, [options]);
 
+  // Função que renderiza o item selecionado no select
   const handleSelectedWord = () => {
 
     let optionsList = document.getElementsByName("options")[0];
