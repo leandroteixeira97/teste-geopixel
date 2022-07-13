@@ -1,0 +1,24 @@
+.shy_ball {
+  width: 100%;
+  height: 100%;
+  grid-area: 1 / 2 / 3 / 3;
+  border: 1px solid black;
+}
+
+.ball {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  position: relative;
+  top: 2%;
+  left: 2%;
+  transition: 3s;
+}
+
+.ball img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  box-shadow: black 1px 1px 10px 1px;
+}

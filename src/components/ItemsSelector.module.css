@@ -1,0 +1,68 @@
+.items_selector {
+  grid-area: 2 / 1 / 3 / 2;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.items_selector select, input {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #CCC;
+  width: 380px;
+  height: 30px;
+}
+
+.items_selector select:focus, input:focus {
+  outline: none;
+}
+
+.handlers {
+  display: flex;
+  gap: 10px;
+}
+
+.handlers button {
+  transition: .4s;
+  background-color: transparent;
+  width: 120px;
+  height: 30px;
+  border: none;
+  background-color: #ccc;
+  color: #1f1f1f ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.handlers button:hover {
+  transition: .4s;
+  background-color: #1f1f1f;
+  color: #CCC;
+}
+
+.error_message, .success_message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.error_message {
+  background-color: rgb(255, 181, 181);
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.success_message {
+  background-color: rgb(173, 236, 173);
+  border: 1px solid green;
+  color: green;
+}
+

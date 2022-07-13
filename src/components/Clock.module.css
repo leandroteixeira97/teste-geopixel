@@ -1,0 +1,7 @@
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 1 / 1 / 2 / 2;
+  border: 1px solid black;
+}
