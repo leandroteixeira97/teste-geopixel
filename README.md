@@ -1,10 +1,10 @@
 # Geopixel - Teste para vaga de Estágio de Desenvolvimento
 
-Este teste foi desenvolvido em ReactJS para o processo seletivo de Estágio em Desenvolvimento da empresa Geopixel. Foram propostos três desafios pela empresa, onde cada um dos desafios serviu para julgar competências diferentes em minnha stack:
+Este teste foi desenvolvido em ReactJS para o processo seletivo de Estágio em Desenvolvimento da empresa Geopixel. Foram propostos três desafios pela empresa, onde cada um dos desafios serviu para julgar competências diferentes em minha stack:
 
-* Relógio: Com uma dificuldade considerada fácil, este problema julgou minnha capacidade de manipulação e administração de estados simples
-* Seletor de itens: Em um nível moderado de dificuldade, julgou minnha capacidade de controlar estados compartilhados, eventos e o relacionamento entre componentes da interface.
-* Bola tímida: Neste desafio de conhecimentos mais específicos, julgou minnha capacidade de controlar eventos específicos e como alterar estilos CSS dinamicamente.
+* Relógio: Com uma dificuldade considerada fácil, este problema julgou minha capacidade de manipulação e administração de estados simples
+* Seletor de itens: Em um nível moderado de dificuldade, julgou minha capacidade de controlar estados compartilhados, eventos e o relacionamento entre componentes da interface.
+* Bola tímida: Neste desafio de conhecimentos mais específicos, julgou minha capacidade de controlar eventos específicos e como alterar estilos CSS dinamicamente.
 
 ## Resultados esperados pela empresa
 
