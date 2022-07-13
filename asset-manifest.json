@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/teste-geopixel/static/css/main.0943151e.css",
+    "main.js": "/teste-geopixel/static/js/main.b9fb2c49.js",
+    "static/js/787.2bd19abe.chunk.js": "/teste-geopixel/static/js/787.2bd19abe.chunk.js",
+    "static/media/ball.png": "/teste-geopixel/static/media/ball.8118f3a3647fcf1058ec.png",
+    "index.html": "/teste-geopixel/index.html",
+    "main.0943151e.css.map": "/teste-geopixel/static/css/main.0943151e.css.map",
+    "main.b9fb2c49.js.map": "/teste-geopixel/static/js/main.b9fb2c49.js.map",
+    "787.2bd19abe.chunk.js.map": "/teste-geopixel/static/js/787.2bd19abe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0943151e.css",
+    "static/js/main.b9fb2c49.js"
+  ]
+}
