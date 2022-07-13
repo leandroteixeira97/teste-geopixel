@@ -20,6 +20,8 @@ Após desenvolvimento do que foi proposto pelos desafios, o teste teve o seguint
 
 # Acesse o resultado projeto on-line
 
+Caso tenha preferência, não é necessário instalar o projeto em sua máquina local. Você poderá acessá-lo através do seguinte link:
+
 https://leandroteixeira97.github.io/teste-geopixel/
 
 # Download e instalação do projeto local
